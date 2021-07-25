@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no ,shrink-to-fit=no ">
+                <meta name="HandheldFriendly" content="true" />
+                <meta name="renderer" content="webkit" >
+                <meta name="force-rendering" content="webkit" >
+                
+                <title>client</title>
+                <style type="text/css">
+                    body {
+                        -webkit-user-select: none;
+                        user-select: none;
+                        cursor: default;
+                        padding-top: 0px !important
+                    }
+                
+                ::-webkit-scrollbar {
+                    width: 0px;
+                }
+                
+                    </style>
+                
+                <script type="text/javascript">
+                    var _PAGE_TIME = new Date();
+                    
+                    function setupWebViewJavascriptBridge(callback) {
+                        if (window.WebViewJavascriptBridge) {
+                            return callback(WebViewJavascriptBridge);
+                        }
+                        if (window.WVJBCallbacks) {
+                            return window.WVJBCallbacks.push(callback);
+                        }
+                        window.WVJBCallbacks = [callback];
+                        var WVJBIframe = document.createElement('iframe');
+                        WVJBIframe.style.display = 'none';
+                        WVJBIframe.src = 'https://__bridge_loaded__';
+                        document.documentElement.appendChild(WVJBIframe);
+                        setTimeout(function () {
+                                   document.documentElement.removeChild(WVJBIframe)
+                                   }, 0)
+                    }
+                
+                setupWebViewJavascriptBridge(function (bridge) {
+                                             
+                                             window.javaScriptBridge = {
+                                             // 入驻 函数 给 oc ;
+                                             _registerHandler: function (funName, fun, _this) {
+                                             bridge.registerHandler(funName, function (dataArr, responseCallback) {
+                                                                    var resp = fun.apply(_this, dataArr);
+                                                                    console.error( "regist oc method  run !! " , funName  , dataArr ) ;
+                                                                    if (  resp &&  typeof resp.then == "function") {
+                                                                    resp.then(responseCallback, responseCallback)
+                                                                    } else {
+                                                                    responseCallback(resp)
+                                                                    }
+                                                                    })
+                                             },
+                                             // 调用 oc 的 函数 ;
+                                             _callHandler: function (OcFunname, argsArray) {
+                                             // oc没有抛出异常;
+                                             console.error( "call oc method " , OcFunname , argsArray ) ;
+                                             argsArray = argsArray || [];   //  []  . [1] ,  [1, true  ,... ]    //
+                                             return new Promise(function (resolve, reject) {
+                                                                // 参数 必须是 数组 ;
+                                                                bridge.callHandler(OcFunname, argsArray, resolve)
+                                                                })
+                                             },
+                                             getItem: function (key) {
+                                             return this._callHandler("getItem", key);
+                                             },
+                                             setItem: function (key, value) {
+                                             return this._callHandler("setItem", [key, value])
+                                             },
+                                             onBootStrapError: function (e ) {
+                                             console.error('onBootStrapError' , e )
+                                             return this._callHandler("onBootStrapError")
+                                             } ,
+                                             nativeRequest : function (url) {
+                                             return this._callHandler( "nativeRequest" , url )
+                                             }
+                                             
+                                             };
+                                             
+                                             javaScriptBridge.getItem('bootStrap').then(eval, javaScriptBridge.onBootStrapError)
+                                             
+                                             });
+                    </script>
+    </head>
+    <!--禁用右键,拖拽  ,   -->
+    <body onContextMenu="return false" ondragstart="return false">
+        
+    </body>
+    
+</html>
+<script type="text/javascript">
+    // 初始化 皮肤 ;
+    var url = decodeURIComponent(location.href);
+    var match = url.match(/skin=(white|black)/);
+    if (match && match[1] == 'black') {
+        document.body.className = '';
+    } else if (match && match[1] == 'white') {
+        document.body.className = 'mac-white';
+    }
+
+// 处理 safari  user-scalable=no 无效,
+document.addEventListener('touchmove', function (event) {
+                          if (event.scale !== 1) { event.preventDefault(); }
+                          }, false);
+                          
+                          
+    </script>

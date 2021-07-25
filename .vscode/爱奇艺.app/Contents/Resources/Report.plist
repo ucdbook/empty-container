@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultTip</key>
+	<string>请详细描述视频中的违规行为</string>
+	<key>Items</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>广告营销</string>
+			<key>code</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>时政反动</string>
+			<key>code</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>色情低俗</string>
+			<key>code</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>血腥暴力</string>
+			<key>code</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>文不对题</string>
+			<key>code</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>欺诈信息</string>
+			<key>code</key>
+			<integer>6</integer>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>版权侵犯</string>
+			<key>code</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>其他</string>
+			<key>code</key>
+			<integer>8</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

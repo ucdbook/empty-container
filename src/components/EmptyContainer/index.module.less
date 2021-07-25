@@ -1,0 +1,200 @@
+@drag-background-image: linear-gradient( rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.3) 45%, rgba(0, 0, 0, 0.3) 55%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0) 90%, rgba(0, 0, 0, 0.3) 90%, rgba(0, 0, 0, 0.3) 100%);
+@drag-background-image-x: linear-gradient(-90deg,  rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0.3) 45%, rgba(0, 0, 0, 0.3) 55%, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0) 90%, rgba(0, 0, 0, 0.3) 90%, rgba(0, 0, 0, 0.3) 100%);
+
+@drag-background-image-dark: linear-gradient( rgba(255, 255, 255, 0.3) 10%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0.3) 45%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 0.3) 90%, rgba(255, 255, 255, 0.3) 100%);
+@drag-background-image-x-dark: linear-gradient(-90deg,  rgba(255, 255, 255, 0.3) 10%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0.3) 45%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 0.3) 90%, rgba(255, 255, 255, 0.3) 100%);
+
+.dragContainer{
+  flex: auto;
+}
+.dragContainerSelect{
+  border: 2px dotted #1890ff;
+  z-index: 1000;
+}
+.parentBox{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  > div[nodename]{
+    height: 100%;
+  }
+  > div[nodetype="row"] {
+    min-height: 100px;
+    flex: auto;
+  }
+  > div[nodetype="column"] {
+    min-width: 100px;
+    flex: auto;
+  }
+  > div[resizename="top"],
+  > div[resizename="bottom"],
+  > div[resizename="right"],
+  > div[resizename="left"]{
+    display: none;
+  }
+  > [needsizeevent="true"] {
+    height: 100%;
+  }
+}
+
+.parentBoxHover,
+.parentBoxSelect{
+  position: relative;
+  > .selectBorderLeft,
+  > div[resizename="left"]{
+    top: 4px;
+    left: 0;
+    width: 4px;
+    height: calc(100% - 8px);
+    position: absolute;
+    z-index: 999;
+  }
+  > .selectBorderRight,
+  > div[resizename="right"]{
+    top: 4px;
+    right: 0;
+    width: 4px;
+    height: calc(100% - 8px);
+    position: absolute;
+    z-index: 999;
+  }
+  > .selectBorderTop,
+  > div[resizename="top"]{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    z-index: 999;
+    position: absolute;
+    z-index: 999;
+  }
+  > .selectBorderBottom,
+  > div[resizename="bottom"]{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    z-index: 999;
+  }
+}
+.parentBoxHover{
+  > .selectBorderTop,
+  > .selectBorderLeft,
+  > .selectBorderRight,
+  > .selectBorderBottom{
+    background: rgba(0, 0, 0, 0.05);
+    pointer-events: none;
+  }
+}
+.parentBoxHoverDark{
+  > .selectBorderTop,
+  > .selectBorderLeft,
+  > .selectBorderRight,
+  > .selectBorderBottom{
+    background: rgba(255, 255, 255, 0.05);;
+    pointer-events: none;
+  }
+}
+
+.parentBoxSelect{
+  > .selectBorderTop,
+  > .selectBorderLeft,
+  > .selectBorderRight,
+  > .selectBorderBottom{
+    background: rgba(0, 0, 0, 0.15);
+    pointer-events: none;
+  }
+
+  > div[resizename="bottom"]{
+    display: block;
+    background-image: @drag-background-image-x;
+  }
+
+  > div[resizename="left"],
+  > div[resizename="right"]{
+    background-image: @drag-background-image;
+  }
+  > div[resizename="right"]{
+    display: block;
+  }
+}
+.parentBoxSelectDark{
+  > .selectBorderTop,
+  > .selectBorderLeft,
+  > .selectBorderRight,
+  > .selectBorderBottom{
+    background: rgba(255, 255, 255, 0.15);
+    pointer-events: none;
+  }
+  > div[resizename="bottom"]{
+    display: block;
+    background-image: @drag-background-image-x-dark;
+  }
+
+  > div[resizename="left"],
+  > div[resizename="right"]{
+    background-image: @drag-background-image-dark;
+  }
+  > div[resizename="right"]{
+    display: block;
+  }
+}
+[styleflex="auto"] + .parentBoxSelect > div[resizename="left"]{
+  display: block;
+}
+
+.emptyContainerTools{
+  position: relative;
+  z-index: 999;
+}
+.emptyContainerToolsBtns{
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  display: none;
+  background: rgba(0, 0, 0, 0.05);
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.parentBoxSelect > .emptyContainerTools > .emptyContainerToolsBtns,
+.parentBoxHover > .emptyContainerTools > .emptyContainerToolsBtns{
+  display: block;
+}
+.parentBoxSelect > .emptyContainerTools > .emptyContainerToolsBtns{
+  background: rgba(0, 0, 0, 0.15);
+}
+.parentBoxSelectDark > .emptyContainerTools > .emptyContainerToolsBtns{
+  background: rgba(255, 255, 255, 0.8);
+  opacity: 0.9;
+}
+
+[styleflex="auto"] ~ .dragContainer,
+[styleflex="1"] ~ .dragContainer{
+  flex: none;
+}
+[styleflex="auto"]{
+  > div[nodetype="row"] {
+    height: 100%;
+  }
+}
+[dragerror="repeat"]{
+  position: relative;
+}
+[dragerror="repeat"]::before{
+  content: '不能重复嵌套';
+  color: #ff0000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 25px;
+  line-height: 25px;
+  transform: translate(-50%, -50%);
+}
+
+[nodetype="emptycontainer"] [nodetype="autocomponent"]{
+  height: 100%;
+}

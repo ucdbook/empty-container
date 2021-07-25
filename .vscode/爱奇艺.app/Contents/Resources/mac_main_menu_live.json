@@ -1,0 +1,93 @@
+{
+    "updateAt" : "20190116235730",
+    "main" : [
+              {
+              "c_name" : "首页",
+              "c_id" : "100",
+              "c_home" : "",
+              "c_url" : "",
+              "c_library" : "0",
+              "c_param" : "0",
+              "c_pos" : "1",
+              "c_aggregate" : "0",
+              "c_rn" : "0"
+              },
+              {
+              "c_name" : "VIP专区",
+              "c_id" : "102",
+              "c_home" : "",
+              "c_url" : "",
+              "c_library" : "0",
+              "c_param" : "1",
+              "c_pos" : "1",
+              "c_aggregate" : "0",
+              "c_rn" : "0"
+              },
+              {
+              "c_name" : "电视剧",
+              "c_id" : "2",
+              "c_home" : "http://www.iqiyi.com/lib/mac/dianshiju",
+              "c_url" : "",
+              "c_library" : "0",
+              "c_param" : "1",
+              "c_pos" : "1",
+              "c_aggregate" : "0",
+              "c_rn" : "1"
+              },
+              {
+              "c_name" : "电影",
+              "c_id" : "1",
+              "c_home" : "http://www.iqiyi.com/lib/mac/dianying",
+              "c_url" : "",
+              "c_library" : "0",
+              "c_param" : "1",
+              "c_pos" : "1",
+              "c_aggregate" : "0",
+              "c_rn" : "1"
+              },
+              {
+              "c_name" : "综艺",
+              "c_id" : "6",
+              "c_home" : "http://www.iqiyi.com/lib/mac/zongyi",
+              "c_url" : "",
+              "c_library" : "0",
+              "c_param" : "1",
+              "c_pos" : "1",
+              "c_aggregate" : "1",
+              "c_rn" : "1"
+              },
+              {
+              "c_name" : "动漫",
+              "c_id" : "4",
+              "c_home" : "http://www.iqiyi.com/lib/mac/dongman",
+              "c_url" : "",
+              "c_library" : "0",
+              "c_param" : "1",
+              "c_pos" : "",
+              "c_aggregate" : "0",
+              "c_rn" : "1"
+              },
+              {
+              "c_name" : "儿童",
+              "c_id" : "15",
+              "c_home" : "",
+              "c_url" : "",
+              "c_library" : "1",
+              "c_param" : "1",
+              "c_pos" : "1",
+              "c_aggregate" : "0",
+              "c_rn" : "0"
+              },
+              {
+              "c_name" : "纪录片",
+              "c_id" : "3",
+              "c_home" : "",
+              "c_url" : "",
+              "c_library" : "1",
+              "c_param" : "1",
+              "c_pos" : "",
+              "c_aggregate" : "0",
+              "c_rn" : "0"
+              }
+              ]
+}

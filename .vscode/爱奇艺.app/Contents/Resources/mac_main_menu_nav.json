@@ -1,0 +1,4015 @@
+{
+  "version": "5.19.1",
+  "root": {
+    "keyType": {
+      "1": "mode",
+      "2": "market_release_date_level",
+      "3": "duration_level",
+      "4": "is_purchase",
+      "5": "channel_name",
+      "6": "content_type",
+      "7": "key"
+    },
+    "firstGradeData": [
+      "2", "102", "1", "6", "4",
+      "15", "3", "7", "8", "10",
+      "29", "22", "27", "21", "5",
+      "31", "12", "25", "28", "9",
+      "30", "17", "32", "26", "13",
+      "24", "20", "16"
+    ],
+    "filterData": {
+      "102": {
+        "channle_name": "VIP专区",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "分类",
+            "items": [
+              {
+                "text": "电影",
+                "value": "1",
+                "keyType": "5",
+                "filters": [
+                  {
+                    "name": "类型",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "动作",
+                        "value": "11"
+                      },
+                      {
+                        "text": "喜剧",
+                        "value": "8"
+                      },
+                      {
+                        "text": "爱情",
+                        "value": "6"
+                      },
+                      {
+                        "text": "惊悚",
+                        "value": "128"
+                      },
+                      {
+                        "text": "科幻",
+                        "value": "9"
+                      },
+                      {
+                        "text": "恐怖",
+                        "value": "10"
+                      },
+                      {
+                        "text": "剧情",
+                        "value": "127"
+                      },
+                      {
+                        "text": "战争",
+                        "value": "7"
+                      },
+                      {
+                        "text": "枪战",
+                        "value": "131"
+                      },
+                      {
+                        "text": "魔幻",
+                        "value": "129"
+                      },
+                      {
+                        "text": "青春",
+                        "value": "130"
+                      },
+                      {
+                        "text": "灾难",
+                        "value": "14"
+                      },
+                      {
+                        "text": "悲剧",
+                        "value": "13"
+                      },
+                      {
+                        "text": "传记",
+                        "value": "132"
+                      },
+                      {
+                        "text": "动画",
+                        "value": "12"
+                      },
+                      {
+                        "text": "犯罪",
+                        "value": "291"
+                      },
+                      {
+                        "text": "伦理",
+                        "value": "288"
+                      },
+                      {
+                        "text": "悬疑",
+                        "value": "289"
+                      },
+                      {
+                        "text": "运动",
+                        "value": "295"
+                      },
+                      {
+                        "text": "其它",
+                        "value": "134"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "地区",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "华语",
+                        "value": "1"
+                      },
+                      {
+                        "text": "美国",
+                        "value": "2"
+                      },
+                      {
+                        "text": "欧洲",
+                        "value": "3"
+                      },
+                      {
+                        "text": "韩国",
+                        "value": "4"
+                      },
+                      {
+                        "text": "泰国",
+                        "value": "1115"
+                      },
+                      {
+                        "text": "其它",
+                        "value": "5"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "时间",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "2020",
+                        "value": "2020",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "2019",
+                        "value": "2019",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "2018",
+                        "value": "2018",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "2017",
+                        "value": "2017",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "2016-2011",
+                        "value": "2011-2016",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "2010-2000",
+                        "value": "2000-2010",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "90年代",
+                        "value": "1990-1999",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "80年代",
+                        "value": "1980-1989",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "更早",
+                        "value": "1964-1979",
+                        "keyType": "2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "电视剧",
+                "value": "2",
+                "keyType": "5",
+                "filters": [
+                  
+                  {
+                    "name": "类型",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "自制",
+                        "value": "11992"
+                      },
+                      {
+                        "text": "古装",
+                        "value": "24"
+                      },
+                      {
+                        "text": "言情",
+                        "value": "20"
+                      },
+                      {
+                        "text": "武侠",
+                        "value": "23"
+                      },
+                      {
+                        "text": "偶像",
+                        "value": "30"
+                      },
+                      {
+                        "text": "家庭",
+                        "value": "1654"
+                      },
+                      {
+                        "text": "青春",
+                        "value": "1653"
+                      },
+                      {
+                        "text": "都市",
+                        "value": "24064"
+                      },
+                      {
+                        "text": "喜剧",
+                        "value": "135"
+                      },
+                      {
+                        "text": "战争",
+                        "value": "27916"
+                      },
+                      {
+                        "text": "军旅",
+                        "value": "1655"
+                      },
+                      {
+                        "text": "谍战",
+                        "value": "290"
+                      },
+                      {
+                        "text": "悬疑",
+                        "value": "32"
+                      },
+                      {
+                        "text": "罪案",
+                        "value": "149"
+                      },
+                      {
+                        "text": "穿越",
+                        "value": "148"
+                      },
+                      {
+                        "text": "宫廷",
+                        "value": "139"
+                      },
+                      {
+                        "text": "历史",
+                        "value": "21"
+                      },
+                      {
+                        "text": "神话",
+                        "value": "145"
+                      },
+                      {
+                        "text": "科幻",
+                        "value": "34"
+                      },
+                      {
+                        "text": "年代",
+                        "value": "27"
+                      },
+                      {
+                        "text": "农村",
+                        "value": "29"
+                      },
+                      {
+                        "text": "商战",
+                        "value": "140"
+                      },
+                      {
+                        "text": "剧情",
+                        "value": "24063"
+                      },
+                      {
+                        "text": "仙侠",
+                        "value": "27862"
+                      },
+                      {
+                        "text": "奇幻",
+                        "value": "27881"
+                      },
+                      {
+                        "text": "网络剧",
+                        "value": "24065"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "地区",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "内地",
+                        "value": "15"
+                      },
+                      {
+                        "text": "香港地区",
+                        "value": "16"
+                      },
+                      {
+                        "text": "台湾地区",
+                        "value": "1117"
+                      },
+                      {
+                        "text": "韩国",
+                        "value": "17"
+                      },
+                      {
+                        "text": "美国",
+                        "value": "18"
+                      },
+                      {
+                        "text": "泰国",
+                        "value": "1114"
+                      },
+                      {
+                        "text": "其它",
+                        "value": "19"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "时间",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "2020",
+                        "value": "2020",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "2019",
+                        "value": "2019",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "2018",
+                        "value": "2018",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "2017",
+                        "value": "2017",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "2016-2011",
+                        "value": "2011-2016",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "2010-2000",
+                        "value": "2000-2010",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "90年代",
+                        "value": "1990-1999",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "80年代",
+                        "value": "1980-1989",
+                        "keyType": "2"
+                      },
+                      {
+                        "text": "更早",
+                        "value": "1964-1979",
+                        "keyType": "2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "纪录片",
+                "value": "3",
+                "keyType": "5",
+                "filters": [
+                  {
+                    "name": "类型",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "社会",
+                        "value": "71"
+                      },
+                      {
+                        "text": "军事",
+                        "value": "72"
+                      },
+                      {
+                        "text": "探索",
+                        "value": "73"
+                      },
+                      {
+                        "text": "自然",
+                        "value": "76"
+                      },
+                      {
+                        "text": "历史",
+                        "value": "74"
+                      },
+                      {
+                        "text": "人物",
+                        "value": "70"
+                      },
+                      {
+                        "text": "文化",
+                        "value": "77"
+                      },
+                      {
+                        "text": "地理",
+                        "value": "75"
+                      },
+                      {
+                        "text": "旅游",
+                        "value": "310"
+                      },
+                      {
+                        "text": "爱奇艺",
+                        "value": "162"
+                      },
+                      {
+                        "text": "典藏",
+                        "value": "79"
+                      },
+                      {
+                        "text": "其它",
+                        "value": "78"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "1": {
+        "channle_name": "电影",
+        "default_sort_value": "11",
+        "filters": [
+
+          {
+            "name": "类型",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "动作",
+                "value": "11"
+              },
+              {
+                "text": "喜剧",
+                "value": "8"
+              },
+              {
+                "text": "爱情",
+                "value": "6"
+              },
+              {
+                "text": "惊悚",
+                "value": "128"
+              },
+              {
+                "text": "科幻",
+                "value": "9"
+              },
+              {
+                "text": "恐怖",
+                "value": "10"
+              },
+              {
+                "text": "剧情",
+                "value": "127"
+              },
+              {
+                "text": "战争",
+                "value": "7"
+              },
+              {
+                "text": "枪战",
+                "value": "131"
+              },
+              {
+                "text": "魔幻",
+                "value": "129"
+              },
+              {
+                "text": "青春",
+                "value": "130"
+              },
+              {
+                "text": "灾难",
+                "value": "14"
+              },
+              {
+                "text": "悲剧",
+                "value": "13"
+              },
+              {
+                "text": "传记",
+                "value": "132"
+              },
+              {
+                "text": "动画",
+                "value": "12"
+              },
+              {
+                "text": "犯罪",
+                "value": "291"
+              },
+              {
+                "text": "伦理",
+                "value": "288"
+              },
+              {
+                "text": "悬疑",
+                "value": "289"
+              },
+              {
+                "text": "运动",
+                "value": "295"
+              },
+              {
+                "text": "其它",
+                "value": "134"
+              }
+            ]
+          },
+          {
+            "name": "地区",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "华语",
+                "value": "1",
+                "used_name": [
+                  "中国大陆"
+                ]
+              },
+              {
+                "text": "美国",
+                "value": "2"
+              },
+              {
+                "text": "欧洲",
+                "value": "3"
+              },
+              {
+                "text": "韩国",
+                "value": "4"
+              },
+              {
+                "text": "泰国",
+                "value": "1115"
+              },
+              {
+                "text": "其它",
+                "value": "5"
+              }
+            ]
+          },
+          {
+            "name": "时间",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0",
+                "keyType": "2"
+              },
+              {
+                "text": "2020",
+                "value": "2020",
+                "keyType": "2"
+              },
+              {
+                "text": "2019",
+                "value": "2019",
+                "keyType": "2"
+              },
+              {
+                "text": "2018",
+                "value": "2018",
+                "keyType": "2"
+              },
+              {
+                "text": "2017",
+                "value": "2017",
+                "keyType": "2"
+              },
+              {
+                "text": "2016-2011",
+                "value": "2011-2016",
+                "keyType": "2"
+              },
+              {
+                "text": "2010-2000",
+                "value": "2000-2010",
+                "keyType": "2"
+              },
+              {
+                "text": "90年代",
+                "value": "1990-1999",
+                "keyType": "2"
+              },
+              {
+                "text": "80年代",
+                "value": "1980-1989",
+                "keyType": "2"
+              },
+              {
+                "text": "更早",
+                "value": "1964-1979",
+                "keyType": "2"
+              }
+            ]
+          },
+          {
+            "name": "资费",
+            "items": [
+              {
+                "text": "全部",
+                "value": "",
+                "keyType": "4"
+              },
+              {
+                "text": "免费",
+                "value": "0",
+                "keyType": "4"
+              },
+              {
+                "text": "付费",
+                "value": "2",
+                "keyType": "4"
+              }
+            ]
+          },
+          {
+            "name": "推荐",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "粤语专区",
+                "value": "311"
+              },
+              {
+                "text": "超清专区",
+                "value": "1"
+              },
+              {
+                "text": "原声电影",
+                "value": "296"
+              },
+              {
+                "text": "微电影",
+                "value": "16",
+                "keyType": "5"
+              }
+            ]
+          }
+        ]
+      },
+      "2": {
+        "channle_name": "电视剧",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "类型",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "自制",
+                "value": "11992"
+              },
+              {
+                "text": "古装",
+                "value": "24"
+              },
+              {
+                "text": "言情",
+                "value": "20"
+              },
+              {
+                "text": "武侠",
+                "value": "23"
+              },
+              {
+                "text": "偶像",
+                "value": "30"
+              },
+              {
+                "text": "家庭",
+                "value": "1654"
+              },
+              {
+                "text": "青春",
+                "value": "1653"
+              },
+              {
+                "text": "都市",
+                "value": "24064"
+              },
+              {
+                "text": "喜剧",
+                "value": "135"
+              },
+              {
+                "text": "战争",
+                "value": "27916"
+              },
+              {
+                "text": "军旅",
+                "value": "1655"
+              },
+              {
+                "text": "谍战",
+                "value": "290"
+              },
+              {
+                "text": "悬疑",
+                "value": "32"
+              },
+              {
+                "text": "罪案",
+                "value": "149"
+              },
+              {
+                "text": "穿越",
+                "value": "148"
+              },
+              {
+                "text": "宫廷",
+                "value": "139"
+              },
+              {
+                "text": "历史",
+                "value": "21"
+              },
+              {
+                "text": "神话",
+                "value": "145"
+              },
+              {
+                "text": "科幻",
+                "value": "34"
+              },
+              {
+                "text": "年代",
+                "value": "27"
+              },
+              {
+                "text": "农村",
+                "value": "29"
+              },
+              {
+                "text": "商战",
+                "value": "140"
+              },
+              {
+                "text": "剧情",
+                "value": "24063"
+              },
+              {
+                "text": "仙侠",
+                "value": "27862"
+              },
+              {
+                "text": "奇幻",
+                "value": "27881"
+              },
+              {
+                "text": "网络剧",
+                "value": "24065"
+              }
+            ]
+          },
+          {
+            "name": "地区",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "内地",
+                "value": "15"
+              },
+              {
+                "text": "香港地区",
+                "value": "16"
+              },
+              {
+                "text": "台湾地区",
+                "value": "1117"
+              },
+              {
+                "text": "韩国",
+                "value": "17"
+              },
+              {
+                "text": "美国",
+                "value": "18"
+              },
+              {
+                "text": "泰国",
+                "value": "1114"
+              },
+              {
+                "text": "其它",
+                "value": "19"
+              }
+            ]
+          },
+          {
+            "name": "时间",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0",
+                "keyType": "2"
+              },
+              {
+                "text": "2020",
+                "value": "2020",
+                "keyType": "2"
+              },
+              {
+                "text": "2019",
+                "value": "2019",
+                "keyType": "2"
+              },
+              {
+                "text": "2018",
+                "value": "2018",
+                "keyType": "2"
+              },
+              {
+                "text": "2017",
+                "value": "2017",
+                "keyType": "2"
+              },
+              {
+                "text": "2016-2011",
+                "value": "2011-2016",
+                "keyType": "2"
+              },
+              {
+                "text": "2010-2000",
+                "value": "2000-2010",
+                "keyType": "2"
+              },
+              {
+                "text": "90年代",
+                "value": "1990-1999",
+                "keyType": "2"
+              },
+              {
+                "text": "80年代",
+                "value": "1980-1989",
+                "keyType": "2"
+              },
+              {
+                "text": "更早",
+                "value": "1964-1979",
+                "keyType": "2"
+              }
+            ]
+          },
+          {
+            "name": "资费",
+            "items": [
+              {
+                "text": "全部",
+                "value": "",
+                "keyType": "4"
+              },
+              {
+                "text": "免费",
+                "value": "0",
+                "keyType": "4"
+              },
+              {
+                "text": "付费",
+                "value": "2",
+                "keyType": "4"
+              }
+            ]
+          }
+        ]
+      },
+      "3": {
+        "channle_name": "纪录片",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "类型",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "社会",
+                "value": "71"
+              },
+              {
+                "text": "军事",
+                "value": "72"
+              },
+              {
+                "text": "探索",
+                "value": "73"
+              },
+              {
+                "text": "自然",
+                "value": "76"
+              },
+              {
+                "text": "历史",
+                "value": "74"
+              },
+              {
+                "text": "人物",
+                "value": "70"
+              },
+              {
+                "text": "文化",
+                "value": "77"
+              },
+              {
+                "text": "地理",
+                "value": "75"
+              },
+              {
+                "text": "旅游",
+                "value": "310"
+              },
+              {
+                "text": "爱奇艺",
+                "value": "162"
+              },
+              {
+                "text": "典藏",
+                "value": "79"
+              },
+              {
+                "text": "其它",
+                "value": "78"
+              }
+            ]
+          }
+        ]
+      },
+      "4": {
+        "channle_name": "动漫",
+        "default_sort_value": "11",
+        "filters": [
+
+          {
+            "name": "类型",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "搞笑",
+                "value": "51"
+              },
+              {
+                "text": "真人",
+                "value": "300"
+              },
+              {
+                "text": "魔幻",
+                "value": "55"
+              },
+              {
+                "text": "冒险",
+                "value": "48"
+              },
+              {
+                "text": "言情",
+                "value": "52"
+              },
+              {
+                "text": "亲子",
+                "value": "316"
+              },
+              {
+                "text": "益智",
+                "value": "298"
+              },
+              {
+                "text": "童话",
+                "value": "299"
+              },
+              {
+                "text": "励志",
+                "value": "297"
+              },
+              {
+                "text": "科幻",
+                "value": "56"
+              },
+              {
+                "text": "热血",
+                "value": "42"
+              },
+              {
+                "text": "剧情",
+                "value": "59"
+              },
+              {
+                "text": "竞技",
+                "value": "49"
+              },
+              {
+                "text": "都市",
+                "value": "54"
+              },
+              {
+                "text": "神话",
+                "value": "301"
+              },
+              {
+                "text": "古代",
+                "value": "45"
+              },
+              {
+                "text": "原创",
+                "value": "1092"
+              },
+              {
+                "text": "怀旧",
+                "value": "1309"
+              },
+              {
+                "text": "动作",
+                "value": "41"
+              },
+              {
+                "text": "宠物",
+                "value": "61"
+              },
+              {
+                "text": "校园",
+                "value": "53"
+              },
+              {
+                "text": "未来",
+                "value": "46"
+              },
+              {
+                "text": "体育",
+                "value": "50"
+              },
+              {
+                "text": "青春",
+                "value": "302"
+              },
+              {
+                "text": "教育",
+                "value": "1108"
+              },
+              {
+                "text": "机战",
+                "value": "43"
+              },
+              {
+                "text": "侦探",
+                "value": "47"
+              },
+              {
+                "text": "战争",
+                "value": "44"
+              },
+              {
+                "text": "动画电影",
+                "value": "1096"
+              },
+              {
+                "text": "传媒大学作品",
+                "value": "1094"
+              }
+            ]
+          },
+          {
+            "name": "地区",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "大陆",
+                "value": "37",
+                "used_name": [
+                  "中国大陆"
+                ]
+              },
+              {
+                "text": "日本",
+                "value": "38"
+              },
+              {
+                "text": "欧美",
+                "value": "30218",
+                "used_name": [
+                  "美国"
+                ]
+              },
+              {
+                "text": "韩国",
+                "value": "1106"
+              },
+              {
+                "text": "其它",
+                "value": "40"
+              }
+            ]
+          },
+          {
+            "name": "年龄",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "0-3",
+                "value": "304"
+              },
+              {
+                "text": "4-6",
+                "value": "1283"
+              },
+              {
+                "text": "7-13",
+                "value": "305"
+              },
+              {
+                "text": "14-17",
+                "value": "306"
+              },
+              {
+                "text": "18以上",
+                "value": "307"
+              }
+            ]
+          },
+          {
+            "name": "版本",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "动画",
+                "value": "30220"
+              },
+              {
+                "text": "特摄",
+                "value": "30223"
+              },
+              {
+                "text": "布袋戏",
+                "value": "30224"
+              },
+              {
+                "text": "特别篇",
+                "value": "32782"
+              },
+              {
+                "text": "动态漫画",
+                "value": "32783"
+              },
+              {
+                "text": "动画电影",
+                "value": "32784"
+              },
+              {
+                "text": "竖版视频",
+                "value": "32785"
+              }
+            ]
+          }
+        ]
+      },
+      "5": {
+        "channle_name": "音乐",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "语言",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "国语",
+                "value": "91"
+              },
+              {
+                "text": "粤语",
+                "value": "92"
+              },
+              {
+                "text": "英语",
+                "value": "94"
+              },
+              {
+                "text": "日语",
+                "value": "95"
+              }
+            ]
+          },
+          {
+            "name": "流派",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "流行",
+                "value": "222"
+              },
+              {
+                "text": "摇滚",
+                "value": "224"
+              },
+              {
+                "text": "民谣",
+                "value": "223"
+              },
+              {
+                "text": "HipHop/说唱",
+                "value": "227"
+              },
+              {
+                "text": "Disco/Club",
+                "value": "231"
+              },
+              {
+                "text": "爵士/蓝调",
+                "value": "228"
+              },
+              {
+                "text": "另类",
+                "value": "226"
+              },
+              {
+                "text": "朋克",
+                "value": "234"
+              },
+              {
+                "text": "金属",
+                "value": "235"
+              },
+              {
+                "text": "独立",
+                "value": "237"
+              },
+              {
+                "text": "电子",
+                "value": "233"
+              },
+              {
+                "text": "古典",
+                "value": "236"
+              },
+              {
+                "text": "民族音乐",
+                "value": "238"
+              },
+              {
+                "text": "世界音乐",
+                "value": "239"
+              }
+            ]
+          },
+          {
+            "name": "地区",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "内地",
+                "value": "221"
+              },
+              {
+                "text": "港台",
+                "value": "220"
+              },
+              {
+                "text": "日韩",
+                "value": "218"
+              },
+              {
+                "text": "欧美",
+                "value": "219"
+              },
+              {
+                "text": "拉丁",
+                "value": "217"
+              },
+              {
+                "text": "中南亚",
+                "value": "216"
+              }
+            ]
+          },
+          {
+            "name": "特色",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "HI舞曲",
+                "value": "244"
+              },
+              {
+                "text": "情歌金曲",
+                "value": "242"
+              },
+              {
+                "text": "汽车音乐",
+                "value": "246"
+              },
+              {
+                "text": "怀旧老歌",
+                "value": "241"
+              },
+              {
+                "text": "影视原声",
+                "value": "245"
+              },
+              {
+                "text": "节日歌曲",
+                "value": "250"
+              },
+              {
+                "text": "儿童歌曲",
+                "value": "247"
+              },
+              {
+                "text": "轻音乐",
+                "value": "243"
+              }
+            ]
+          }
+        ]
+      },
+      "6": {
+        "channle_name": "综艺",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "类型",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "播报",
+                "value": "155"
+              },
+              {
+                "text": "访谈",
+                "value": "156"
+              },
+              {
+                "text": "搞笑",
+                "value": "157"
+              },
+              {
+                "text": "游戏",
+                "value": "158"
+              },
+              {
+                "text": "选秀",
+                "value": "159"
+              },
+              {
+                "text": "时尚",
+                "value": "160"
+              },
+              {
+                "text": "情感",
+                "value": "163"
+              },
+              {
+                "text": "晚会",
+                "value": "292"
+              },
+              {
+                "text": "曲艺",
+                "value": "293"
+              },
+              {
+                "text": "美食",
+                "value": "1003"
+              },
+              {
+                "text": "少儿",
+                "value": "2117"
+              },
+              {
+                "text": "脱口秀",
+                "value": "2118"
+              },
+              {
+                "text": "职场",
+                "value": "2119"
+              },
+              {
+                "text": "相亲",
+                "value": "2120"
+              },
+              {
+                "text": "音乐",
+                "value": "2121"
+              },
+              {
+                "text": "伦理",
+                "value": "2122"
+              },
+              {
+                "text": "真人秀",
+                "value": "2224"
+              },
+              {
+                "text": "舞蹈",
+                "value": "30273"
+              },
+              {
+                "text": "亲子",
+                "value": "30274"
+              },
+              {
+                "text": "财经",
+                "value": "30275"
+              },
+              {
+                "text": "旅游",
+                "value": "30276"
+              },
+              {
+                "text": "益智",
+                "value": "30277"
+              },
+              {
+                "text": "竞技",
+                "value": "30278"
+              },
+              {
+                "text": "爱奇艺出品",
+                "value": "30279"
+              },
+              {
+                "text": "其他",
+                "value": "161"
+              }
+            ]
+          },
+          {
+            "name": "节目",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "声临其境",
+                "value": "6",
+                "keyType": "7"
+              },
+              {
+                "text": "偶像练习生",
+                "value": "6",
+                "keyType": "7"
+              },
+              {
+                "text": "梦想的声音第2季",
+                "value": "6",
+                "keyType": "7"
+              },
+              {
+                "text": "今夜现场秀",
+                "value": "6",
+                "keyType": "7"
+              },
+              {
+                "text": "国家宝藏",
+                "value": "6",
+                "keyType": "7"
+              },
+              {
+                "text": "天籁之子",
+                "value": "6",
+                "keyType": "7"
+              },
+              {
+                "text": "三个院子",
+                "value": "6",
+                "keyType": "7"
+              },
+              {
+                "text": "最强大脑燃烧季",
+                "value": "6",
+                "keyType": "7"
+              },
+              {
+                "text": "萌宠小大人",
+                "value": "6",
+                "keyType": "7"
+              },
+              {
+                "text": "冒犯家族",
+                "value": "6",
+                "keyType": "7"
+              }
+            ]
+          },
+          {
+            "name": "地区",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "内地",
+                "value": "151"
+              },
+              {
+                "text": "港台",
+                "value": "152"
+              },
+              {
+                "text": "日韩",
+                "value": "153"
+              },
+              {
+                "text": "欧美",
+                "value": "154"
+              },
+              {
+                "text": "其它",
+                "value": "1113"
+              }
+            ]
+          }
+        ]
+      },
+      "7": {
+        "channle_name": "娱乐",
+        "default_sort_value": "4",
+        "filters": [
+          {
+            "name": "类型",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "新闻",
+                "value": "189"
+              },
+              {
+                "text": "访谈",
+                "value": "190"
+              },
+              {
+                "text": "专题",
+                "value": "191"
+              },
+              {
+                "text": "宣传片",
+                "value": "192"
+              },
+              {
+                "text": "花絮",
+                "value": "193"
+              },
+              {
+                "text": "MV",
+                "value": "194"
+              },
+              {
+                "text": "独家",
+                "value": "169"
+              },
+              {
+                "text": "热点",
+                "value": "170"
+              },
+              {
+                "text": "原创",
+                "value": "171"
+              },
+              {
+                "text": "八卦",
+                "value": "175"
+              },
+              {
+                "text": "选秀",
+                "value": "176"
+              },
+              {
+                "text": "时尚",
+                "value": "178"
+              },
+              {
+                "text": "游戏",
+                "value": "179"
+              },
+              {
+                "text": "搞笑",
+                "value": "180"
+              },
+              {
+                "text": "音乐",
+                "value": "1079"
+              },
+              {
+                "text": "颁奖",
+                "value": "182"
+              },
+              {
+                "text": "活动",
+                "value": "183"
+              },
+              {
+                "text": "慈善",
+                "value": "1658"
+              },
+              {
+                "text": "环保",
+                "value": "1657"
+              }
+            ]
+          },
+          {
+            "name": "地区",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "内地",
+                "value": "184"
+              },
+              {
+                "text": "港台",
+                "value": "185"
+              },
+              {
+                "text": "日韩",
+                "value": "186"
+              },
+              {
+                "text": "海外",
+                "value": "187"
+              },
+              {
+                "text": "其它",
+                "value": "188"
+              }
+            ]
+          }
+          
+        ]
+      },
+      "8": {
+        "channle_name": "游戏",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "类型",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "网络游戏",
+                "value": "21275"
+              },
+              {
+                "text": "电子竞技",
+                "value": "21276"
+              },
+              {
+                "text": "单机游戏",
+                "value": "21277"
+              },
+              {
+                "text": "手机游戏",
+                "value": "21278"
+              },
+              {
+                "text": "游戏美女",
+                "value": "21279"
+              }
+            ]
+          }
+        ]
+      },
+      "9": {
+        "channle_name": "旅游",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "类型",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "风光",
+                "value": "354"
+              },
+              {
+                "text": "饮食",
+                "value": "355"
+              },
+              {
+                "text": "出行",
+                "value": "638"
+              },
+              {
+                "text": "住宿",
+                "value": "356"
+              }
+            ]
+          },
+          {
+            "name": "地区",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "安徽",
+                "value": "599"
+              },
+              {
+                "text": "北京",
+                "value": "576"
+              },
+              {
+                "text": "河南",
+                "value": "607"
+              },
+              {
+                "text": "湖南",
+                "value": "611"
+              },
+              {
+                "text": "江苏",
+                "value": "595"
+              },
+              {
+                "text": "辽宁",
+                "value": "589"
+              },
+              {
+                "text": "西藏",
+                "value": "625"
+              },
+              {
+                "text": "埃及",
+                "value": "567"
+              },
+              {
+                "text": "澳大利亚",
+                "value": "559"
+              },
+              {
+                "text": "法国",
+                "value": "520"
+              },
+              {
+                "text": "马尔代夫",
+                "value": "460"
+              },
+              {
+                "text": "日本",
+                "value": "426"
+              },
+              {
+                "text": "新西兰",
+                "value": "380"
+              },
+              {
+                "text": "意大利",
+                "value": "371"
+              }
+            ]
+          }
+        ]
+      },
+
+      "10": {
+        "channle_name": "片花",
+        "default_sort_value": "4",
+        "filters": [
+          {
+            "name": "分类",
+            "items": [
+              {
+                "text": "电影",
+                "value": "1007",
+                "filters": [
+                  {
+                    "name": "地区",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "华语",
+                        "value": "29801"
+                      },
+                      {
+                        "text": "香港地区",
+                        "value": "29809"
+                      },
+                      {
+                        "text": "美国",
+                        "value": "29802"
+                      },
+                      {
+                        "text": "欧洲",
+                        "value": "29803"
+                      },
+                      {
+                        "text": "日本",
+                        "value": "29806"
+                      },
+                      {
+                        "text": "韩国",
+                        "value": "29804"
+                      },
+                      {
+                        "text": "泰国",
+                        "value": "29807"
+                      },
+                      {
+                        "text": "其它",
+                        "value": "29805"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "电视剧",
+                "value": "1006",
+                "filters": [
+                  {
+                    "name": "地区",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "内地",
+                        "value": "29927"
+                      },
+                      {
+                        "text": "香港地区",
+                        "value": "29928"
+                      },
+                      {
+                        "text": "韩国",
+                        "value": "29929"
+                      },
+                      {
+                        "text": "日本",
+                        "value": "29932"
+                      },
+                      {
+                        "text": "美剧",
+                        "value": "29930"
+                      },
+                      {
+                        "text": "泰国",
+                        "value": "29933"
+                      },
+                      {
+                        "text": "台湾地区",
+                        "value": "29934"
+                      },
+                      {
+                        "text": "其它",
+                        "value": "29931"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "12": {
+        "channle_name": "教育",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "分类",
+            "key": "three_category_id",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "幼儿",
+                "value": "1934",
+                "filters": [
+                  {
+                    "name": "二级分类",
+                    "key": "three_category_id",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "知识启蒙",
+                        "value": "1942"
+                      },
+                      {
+                        "text": "习惯养成",
+                        "value": "1943"
+                      },
+                      {
+                        "text": "综合",
+                        "value": "2083"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "初中",
+                "value": "1936",
+                "filters": [
+                  {
+                    "name": "二级分类",
+                    "key": "three_category_id",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "初一",
+                        "value": "1950"
+                      },
+                      {
+                        "text": "初二",
+                        "value": "1951"
+                      },
+                      {
+                        "text": "初三",
+                        "value": "1952"
+                      },
+                      {
+                        "text": "综合",
+                        "value": "2085"
+                      },
+                      {
+                        "text": "中考",
+                        "value": "2186"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "高中",
+                "value": "1937",
+                "filters": [
+                  {
+                    "name": "二级分类",
+                    "key": "three_category_id",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "高一",
+                        "value": "1953"
+                      },
+                      {
+                        "text": "高二",
+                        "value": "1954"
+                      },
+                      {
+                        "text": "综合",
+                        "value": "2086"
+                      },
+                      {
+                        "text": "高考",
+                        "value": "2187"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "外语学习",
+                "value": "1939",
+                "filters": [
+                  {
+                    "name": "二级分类",
+                    "key": "three_category_id",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "英语四级",
+                        "value": "1959"
+                      },
+                      {
+                        "text": "英语六级",
+                        "value": "1960"
+                      },
+                      {
+                        "text": "小语种",
+                        "value": "1961"
+                      },
+                      {
+                        "text": "托福",
+                        "value": "1962"
+                      },
+                      {
+                        "text": "商务英语",
+                        "value": "1963"
+                      },
+                      {
+                        "text": "新概念",
+                        "value": "1964"
+                      },
+                      {
+                        "text": "职称英语",
+                        "value": "1965"
+                      },
+                      {
+                        "text": "公共英语",
+                        "value": "1966"
+                      },
+                      {
+                        "text": "综合",
+                        "value": "2088"
+                      },
+                      {
+                        "text": "雅思",
+                        "value": "2188"
+                      },
+                      {
+                        "text": "英语口语",
+                        "value": "2189"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "职业教育",
+                "value": "1940",
+                "filters": [
+                  {
+                    "name": "二级分类",
+                    "key": "three_category_id",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "IT培训",
+                        "value": "1967"
+                      },
+                      {
+                        "text": "财务培训",
+                        "value": "1968"
+                      },
+                      {
+                        "text": "职业资格",
+                        "value": "1969"
+                      },
+                      {
+                        "text": "公务员考试",
+                        "value": "1970"
+                      },
+                      {
+                        "text": "综合",
+                        "value": "2089"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "管理培训",
+                "value": "1941",
+                "filters": [
+                  {
+                    "name": "二级分类",
+                    "key": "three_category_id",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "企业管理",
+                        "value": "1971"
+                      },
+                      {
+                        "text": "职场学习",
+                        "value": "1972"
+                      },
+                      {
+                        "text": "综合",
+                        "value": "2090"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "学历教育",
+                "value": "2111",
+                "filters": [
+                  {
+                    "name": "二级分类",
+                    "key": "three_category_id",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "大学",
+                        "value": "2123"
+                      },
+                      {
+                        "text": "考研",
+                        "value": "2113"
+                      },
+                      {
+                        "text": "MBA",
+                        "value": "2114"
+                      },
+                      {
+                        "text": "综合",
+                        "value": "2112"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "13": {
+        "channle_name": "时尚",
+        "default_sort_value": "4",
+        "filters": [
+          {
+            "name": "行业",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "美容",
+                "value": "1209"
+              },
+              {
+                "text": "服饰",
+                "value": "1208"
+              },
+              {
+                "text": "生活",
+                "value": "1210"
+              },
+              {
+                "text": "其它",
+                "value": "1211"
+              }
+            ]
+          },
+          {
+            "name": "季节",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "早春",
+                "value": "1224"
+              },
+              {
+                "text": "春夏",
+                "value": "1225"
+              },
+              {
+                "text": "早秋",
+                "value": "1226"
+              },
+              {
+                "text": "秋冬",
+                "value": "1227"
+              },
+              {
+                "text": "其它",
+                "value": "1228"
+              }
+            ]
+          },
+          {
+            "name": "内容",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "公告牌",
+                "value": "1229"
+              },
+              {
+                "text": "爱奇艺自制",
+                "value": "1230"
+              },
+              {
+                "text": "名利场",
+                "value": "1232"
+              },
+              {
+                "text": "趋势报道",
+                "value": "1233"
+              },
+              {
+                "text": "本季流行",
+                "value": "1234"
+              },
+              {
+                "text": "秀场",
+                "value": "1235"
+              },
+              {
+                "text": "广告大片",
+                "value": "1236"
+              },
+              {
+                "text": "街拍",
+                "value": "1237"
+              },
+              {
+                "text": "人物",
+                "value": "1238"
+              },
+              {
+                "text": "派对&红毯",
+                "value": "1239"
+              },
+              {
+                "text": "乐活",
+                "value": "1240"
+              },
+              {
+                "text": "其它",
+                "value": "1241"
+              }
+            ]
+          }
+        ]
+      },
+      "15": {
+        "channle_name": "儿童",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "类型",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "畅听",
+                "value": "31012"
+              },
+              {
+                "text": "电影",
+                "value": "31013"
+              },
+              {
+                "text": "有声绘本",
+                "value": "31014"
+              },
+              {
+                "text": "书画改编",
+                "value": "31015"
+              },
+              {
+                "text": "儿童综艺",
+                "value": "31016"
+              },
+              {
+                "text": "真人特摄",
+                "value": "31017"
+              },
+              {
+                "text": "电视剧",
+                "value": "31018"
+              },
+              {
+                "text": "纪录片",
+                "value": "31019"
+              },
+              {
+                "text": "动画",
+                "value": "31020"
+              },
+              {
+                "text": "Watch&Learn",
+                "value": "31021"
+              },
+              {
+                "text": "其他",
+                "value": "31022"
+              }
+            ]
+          },
+          {
+            "name": "地区",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "欧美",
+                "value": "1261"
+              },
+              {
+                "text": "大陆",
+                "value": "1259"
+              },
+              {
+                "text": "港台",
+                "value": "1260"
+              },
+              {
+                "text": "日本",
+                "value": "1262"
+              },
+              {
+                "text": "韩国",
+                "value": "28933"
+              },
+              {
+                "text": "其他",
+                "value": "1263"
+              }
+            ]
+          },
+          {
+            "name": "年龄",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "0-3岁",
+                "value": "4489"
+              },
+              {
+                "text": "4-6岁",
+                "value": "28929"
+              },
+              {
+                "text": "7-10岁",
+                "value": "4493"
+              },
+              {
+                "text": "11-13岁",
+                "value": "4494"
+              }
+            ]
+          },
+          {
+            "name": "课程",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "儿歌",
+                "value": "28983"
+              },
+              {
+                "text": "故事",
+                "value": "28984"
+              },
+              {
+                "text": "学英语",
+                "value": "28985"
+              },
+              {
+                "text": "百科",
+                "value": "28986"
+              },
+              {
+                "text": "国学",
+                "value": "28987"
+              },
+              {
+                "text": "手工",
+                "value": "28988"
+              },
+              {
+                "text": "识字",
+                "value": "28989"
+              },
+              {
+                "text": "数学",
+                "value": "28990"
+              },
+              {
+                "text": "美术",
+                "value": "28991"
+              },
+              {
+                "text": "舞蹈",
+                "value": "28993"
+              },
+              {
+                "text": "乐器",
+                "value": "30917"
+              },
+              {
+                "text": "音乐",
+                "value": "30918"
+              },
+              {
+                "text": "诗词",
+                "value": "30919"
+              },
+              {
+                "text": "运动",
+                "value": "30920"
+              },
+              {
+                "text": "拼音",
+                "value": "30921"
+              },
+              {
+                "text": "口才",
+                "value": "30922"
+              },
+              {
+                "text": "分级阅读",
+                "value": "30923"
+              },
+              {
+                "text": "其他",
+                "value": "28994"
+              }
+            ]
+          },
+          {
+            "name": "语种",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "英语",
+                "value": "4486"
+              },
+              {
+                "text": "国语",
+                "value": "4487"
+              },
+              {
+                "text": "日语",
+                "value": "4488"
+              },
+              {
+                "text": "其他",
+                "value": "28932"
+              }
+            ]
+          },
+          {
+            "name": "主题",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "玩具",
+                "value": "30215"
+              },
+              {
+                "text": "宠物",
+                "value": "28956"
+              },
+              {
+                "text": "早教",
+                "value": "28957"
+              },
+              {
+                "text": "诗歌",
+                "value": "28958"
+              },
+              {
+                "text": "益智",
+                "value": "28960"
+              },
+              {
+                "text": "冒险",
+                "value": "28964"
+              },
+              {
+                "text": "搞笑",
+                "value": "28966"
+              },
+              {
+                "text": "少女",
+                "value": "28967"
+              },
+              {
+                "text": "亲子",
+                "value": "28968"
+              },
+              {
+                "text": "探索发现",
+                "value": "28969"
+              },
+              {
+                "text": "动物",
+                "value": "28970"
+              },
+              {
+                "text": "公主",
+                "value": "28974"
+              },
+              {
+                "text": "科幻",
+                "value": "28977"
+              },
+              {
+                "text": "英雄",
+                "value": "28979"
+              },
+              {
+                "text": "童谣",
+                "value": "30937"
+              },
+              {
+                "text": "健康",
+                "value": "30938"
+              },
+              {
+                "text": "恐龙",
+                "value": "30939"
+              },
+              {
+                "text": "交通工具",
+                "value": "30940"
+              },
+              {
+                "text": "飞机",
+                "value": "30941"
+              },
+              {
+                "text": "火车",
+                "value": "30942"
+              },
+              {
+                "text": "汽车",
+                "value": "30943"
+              },
+              {
+                "text": "船",
+                "value": "30944"
+              },
+              {
+                "text": "动作",
+                "value": "30946"
+              },
+              {
+                "text": "其他",
+                "value": "28981"
+              }
+            ]
+          }
+        ]
+      },
+      "16": {
+        "channle_name": "微电影",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "类型",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "明星",
+                "value": "1293"
+              },
+              {
+                "text": "歌舞",
+                "value": "1294"
+              },
+              {
+                "text": "文艺",
+                "value": "1295"
+              },
+              {
+                "text": "喜剧",
+                "value": "1296"
+              },
+              {
+                "text": "爱情",
+                "value": "1297"
+              },
+              {
+                "text": "动作",
+                "value": "1298"
+              },
+              {
+                "text": "奇幻",
+                "value": "1299"
+              },
+              {
+                "text": "惊悚",
+                "value": "1300"
+              },
+              {
+                "text": "悬疑",
+                "value": "1301"
+              },
+              {
+                "text": "青春",
+                "value": "1302"
+              },
+              {
+                "text": "温情",
+                "value": "1303"
+              },
+              {
+                "text": "励志",
+                "value": "1304"
+              },
+              {
+                "text": "公益",
+                "value": "1305"
+              },
+              {
+                "text": "酷儿",
+                "value": "1306"
+              },
+              {
+                "text": "广告",
+                "value": "1307"
+              },
+              {
+                "text": "其它",
+                "value": "1308"
+              }
+            ]
+          },
+          {
+            "name": "时长",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0",
+                "keyType": "3"
+              },
+              {
+                "text": "0~10分钟",
+                "value": "2",
+                "keyType": "3"
+              },
+              {
+                "text": "10~30分钟",
+                "value": "3",
+                "keyType": "3"
+              },
+              {
+                "text": "30~60分钟",
+                "value": "4",
+                "keyType": "3"
+              },
+              {
+                "text": "60分钟以上",
+                "value": "5",
+                "keyType": "3"
+              }
+            ]
+          }
+        ]
+      },
+      "17": {
+        "channle_name": "体育",
+        "default_sort_value": "4",
+        "filters": [
+         
+          {
+            "name": "类型",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "集锦",
+                "value": "1724"
+              },
+              {
+                "text": "花絮",
+                "value": "1725"
+              },
+              {
+                "text": "进球",
+                "value": "1726"
+              },
+              {
+                "text": "整场",
+                "value": "1727"
+              },
+              {
+                "text": "节目",
+                "value": "1728"
+              },
+              {
+                "text": "纪录片",
+                "value": "1729"
+              },
+              {
+                "text": "教学",
+                "value": "1730"
+              },
+              {
+                "text": "资讯",
+                "value": "1837"
+              },
+              {
+                "text": "其它",
+                "value": "1731"
+              }
+            ]
+          },
+          {
+            "name": "大项",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "足球",
+                "value": "1673",
+                "filters": [
+                  {
+                    "name": "次项",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "中超",
+                        "value": "1674"
+                      },
+                      {
+                        "text": "意甲",
+                        "value": "1675"
+                      },
+                      {
+                        "text": "西甲",
+                        "value": "1676"
+                      },
+                      {
+                        "text": "英超",
+                        "value": "1677"
+                      },
+                      {
+                        "text": "德甲",
+                        "value": "1678"
+                      },
+                      {
+                        "text": "法甲",
+                        "value": "1679"
+                      },
+                      {
+                        "text": "国内其它",
+                        "value": "1680"
+                      },
+                      {
+                        "text": "国际其它",
+                        "value": "1681"
+                      },
+                      {
+                        "text": "世预赛",
+                        "value": "1914"
+                      },
+                      {
+                        "text": "欧冠",
+                        "value": "1915"
+                      },
+                      {
+                        "text": "欧联",
+                        "value": "1916"
+                      },
+                      {
+                        "text": "亚冠",
+                        "value": "1917"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "篮球",
+                "value": "1688",
+                "filters": [
+                  {
+                    "name": "次项",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "CBA",
+                        "value": "1689"
+                      },
+                      {
+                        "text": "NBA",
+                        "value": "1690"
+                      },
+                      {
+                        "text": "其它",
+                        "value": "1691"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "网球",
+                "value": "1700",
+                "filters": [
+                  {
+                    "name": "次项",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "澳网",
+                        "value": "1701"
+                      },
+                      {
+                        "text": "法网",
+                        "value": "1702"
+                      },
+                      {
+                        "text": "温网",
+                        "value": "1703"
+                      },
+                      {
+                        "text": "美网",
+                        "value": "1704"
+                      },
+                      {
+                        "text": "中网",
+                        "value": "1705"
+                      },
+                      {
+                        "text": "其它",
+                        "value": "1706"
+                      },
+                      {
+                        "text": "大师赛",
+                        "value": "1918"
+                      },
+                      {
+                        "text": "年终总决赛",
+                        "value": "1919"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "高尔夫",
+                "value": "1707",
+                "filters": [
+                  {
+                    "name": "次项",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "PGA",
+                        "value": "1922"
+                      },
+                      {
+                        "text": "LPGA",
+                        "value": "1923"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "赛车",
+                "value": "1708",
+                "filters": [
+                  {
+                    "name": "次项",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "F1",
+                        "value": "1709"
+                      },
+                      {
+                        "text": "其它",
+                        "value": "1710"
+                      },
+                      {
+                        "text": "达喀尔",
+                        "value": "1921"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "极限运动",
+                "value": "1711"
+              },
+              {
+                "text": "台球",
+                "value": "1712",
+                "filters": [
+                  {
+                    "name": "次项",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "斯诺克",
+                        "value": "1713"
+                      },
+                      {
+                        "text": "其它",
+                        "value": "1714"
+                      },
+                      {
+                        "text": "九球",
+                        "value": "1920"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "text": "其它",
+                "value": "1715",
+                "filters": [
+                  {
+                    "name": "次项",
+                    "items": [
+                      {
+                        "text": "全部",
+                        "value": "0"
+                      },
+                      {
+                        "text": "乒乓球",
+                        "value": "1716"
+                      },
+                      {
+                        "text": "羽毛球",
+                        "value": "1717"
+                      },
+                      {
+                        "text": "游泳",
+                        "value": "1718"
+                      },
+                      {
+                        "text": "田径",
+                        "value": "1719"
+                      },
+                      {
+                        "text": "排球",
+                        "value": "1720"
+                      },
+                      {
+                        "text": "其它",
+                        "value": "1721"
+                      },
+                      {
+                        "text": "自行车",
+                        "value": "1928"
+                      },
+                      {
+                        "text": "跳水",
+                        "value": "1929"
+                      },
+                      {
+                        "text": "体操",
+                        "value": "1930"
+                      },
+                      {
+                        "text": "举重",
+                        "value": "1931"
+                      },
+                      {
+                        "text": "冰雪",
+                        "value": "1932"
+                      },
+                      {
+                        "text": "棋牌",
+                        "value": "1933"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "20": {
+        "channle_name": "广告",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "分类",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "明星",
+                "value": "1859"
+              },
+              {
+                "text": "公益",
+                "value": "1860"
+              },
+              {
+                "text": "欧美",
+                "value": "1861"
+              },
+              {
+                "text": "形象",
+                "value": "1862"
+              },
+              {
+                "text": "搞笑",
+                "value": "1863"
+              },
+              {
+                "text": "时尚",
+                "value": "1864"
+              },
+              {
+                "text": "儿童",
+                "value": "1865"
+              },
+              {
+                "text": "生活",
+                "value": "1866"
+              },
+              {
+                "text": "性感",
+                "value": "1867"
+              },
+              {
+                "text": "热门",
+                "value": "1868"
+              }
+            ]
+          },
+          {
+            "name": "品牌",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "食品饮料",
+                "value": "1888"
+              },
+              {
+                "text": "化妆品",
+                "value": "1887"
+              },
+              {
+                "text": "房地产",
+                "value": "1886"
+              },
+              {
+                "text": "金融",
+                "value": "1885"
+              },
+              {
+                "text": "汽车",
+                "value": "1884"
+              },
+              {
+                "text": "IT数码",
+                "value": "1883"
+              },
+              {
+                "text": "烟酒",
+                "value": "1889"
+              },
+              {
+                "text": "运动户外",
+                "value": "1890"
+              },
+              {
+                "text": "服装",
+                "value": "1891"
+              },
+              {
+                "text": "鞋包配件",
+                "value": "1892"
+              },
+              {
+                "text": "家具电器",
+                "value": "1893"
+              },
+              {
+                "text": "医药",
+                "value": "1894"
+              },
+              {
+                "text": "珠宝手表",
+                "value": "1895"
+              },
+              {
+                "text": "日化用品",
+                "value": "1896"
+              }
+            ]
+          }
+        ]
+      },
+      "21": {
+        "channle_name": "生活",
+        "default_sort_value": "4",
+        "filters": [
+          {
+            "name": "类型",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "美食",
+                "value": "2218"
+              },
+              {
+                "text": "亲子",
+                "value": "2231"
+              },
+              {
+                "text": "家居",
+                "value": "1879"
+              },
+              {
+                "text": "宠物",
+                "value": "2228"
+              },
+              {
+                "text": "美尚",
+                "value": "1898"
+              },
+              {
+                "text": "舞蹈",
+                "value": "2226"
+              },
+              {
+                "text": "科技",
+                "value": "1873"
+              },
+              {
+                "text": "健身",
+                "value": "2225"
+              }
+            ]
+          },
+          {
+            "name": "地区",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "国内",
+                "value": "1881"
+              },
+              {
+                "text": "国外",
+                "value": "1882"
+              }
+            ]
+          }
+        ]
+      },
+      "22": {
+        "channle_name": "搞笑",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "类型",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "自爆",
+                "value": "1900"
+              },
+              {
+                "text": "原创",
+                "value": "1901"
+              },
+              {
+                "text": "恶搞",
+                "value": "1902"
+              },
+              {
+                "text": "相声",
+                "value": "1903"
+              },
+              {
+                "text": "小品",
+                "value": "1904"
+              },
+              {
+                "text": "宠物",
+                "value": "1905"
+              },
+              {
+                "text": "屌丝",
+                "value": "1906"
+              },
+              {
+                "text": "童趣",
+                "value": "1909"
+              },
+              {
+                "text": "方言",
+                "value": "1910"
+              }
+            ]
+          },
+          {
+            "name": "地区",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "国内",
+                "value": "1907"
+              },
+              {
+                "text": "国外",
+                "value": "1908"
+              }
+            ]
+          }
+        ]
+      },
+      "24": {
+        "channle_name": "财经",
+        "default_sort_value": "4",
+        "filters": [
+          {
+            "name": "分类",
+            "items": [
+              {
+                "text": "全部",
+                "value": 0
+              },
+              {
+                "text": "宏观",
+                "value": 2233
+              },
+              {
+                "text": "民生",
+                "value": 2234
+              },
+              {
+                "text": "产经",
+                "value": 2235
+              },
+              {
+                "text": "市场",
+                "value": 2236
+              },
+              {
+                "text": "理财",
+                "value": 2237
+              },
+              {
+                "text": "访谈",
+                "value": 2238
+              }
+            ]
+          }
+        ]
+      },
+      "25": {
+        "channle_name": "资讯",
+        "default_sort_value": "4",
+        "filters": [
+          {
+            "name": "类型",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "社会",
+                "value": "20031"
+              },
+              {
+                "text": "科技",
+                "value": "20321"
+              },
+              {
+                "text": "军事",
+                "value": "21314"
+              },
+              {
+                "text": "评论",
+                "value": "21315"
+              },
+              {
+                "text": "国内",
+                "value": "21739"
+              },
+              {
+                "text": "国际",
+                "value": "21740"
+              }
+            ]
+          }
+        ]
+      },
+      "26": {
+        "channle_name": "汽车",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "类型",
+            "key": "three_category_id",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "资讯",
+                "value": "20529"
+              },
+              {
+                "text": "专访",
+                "value": "20530"
+              },
+              {
+                "text": "新车",
+                "value": "20531"
+              },
+              {
+                "text": "试驾",
+                "value": "20532"
+              },
+              {
+                "text": "用车",
+                "value": "20533"
+              },
+              {
+                "text": "赛事",
+                "value": "20534"
+              },
+              {
+                "text": "交通",
+                "value": "20535"
+              },
+              {
+                "text": "娱乐",
+                "value": "20536"
+              },
+              {
+                "text": "车模",
+                "value": "20537"
+              },
+              {
+                "text": "改装",
+                "value": "20538"
+              },
+              {
+                "text": "车微剧",
+                "value": "20539"
+              },
+              {
+                "text": "爱汽车制造",
+                "value": "20540"
+              }
+            ]
+          }
+        ]
+      },
+      "27": {
+        "channle_name": "原创",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "类型",
+            "key": "three_category_id",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "动画",
+                "value": "21317"
+              },
+              {
+                "text": "微电影",
+                "value": "21318"
+              },
+              {
+                "text": "音乐",
+                "value": "21319"
+              },
+              {
+                "text": "搞笑",
+                "value": "21320"
+              },
+              {
+                "text": "生活",
+                "value": "21321"
+              },
+              {
+                "text": "极客",
+                "value": "21414"
+              }
+            ]
+          }
+        ]
+      },
+      "28": {
+        "channle_name": "军事",
+        "default_sort_value": "4",
+        "filters": [
+          {
+            "name": "类型",
+            "key": "three_category_id",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "军情",
+                "value": "21789"
+              },
+              {
+                "text": "深度",
+                "value": "21790"
+              },
+              {
+                "text": "兵器",
+                "value": "21791"
+              },
+              {
+                "text": "战史",
+                "value": "21792"
+              },
+              {
+                "text": "人物",
+                "value": "21793"
+              }
+            ]
+          }
+        ]
+      },
+      "29": {
+        "channle_name": "母婴",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "类型",
+            "key": "three_category_id",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "萌宝乐园",
+                "value": "24083"
+              },
+              {
+                "text": "孕期",
+                "value": "24084"
+              },
+              {
+                "text": "分娩",
+                "value": "24085"
+              },
+              {
+                "text": "妈咪饮食",
+                "value": "24086"
+              },
+              {
+                "text": "宝宝饮食",
+                "value": "24087"
+              },
+              {
+                "text": "早教课堂",
+                "value": "24088"
+              },
+              {
+                "text": "婴幼儿常见疾病",
+                "value": "24089"
+              },
+              {
+                "text": "时尚辣妈圈",
+                "value": "27345"
+              },
+              {
+                "text": "亲子生活馆",
+                "value": "27350"
+              }
+            ]
+          },
+          {
+            "name": "年龄",
+            "key": "three_category_id",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "0-1岁",
+                "value": "24121"
+              },
+              {
+                "text": "1-3岁",
+                "value": "24122"
+              },
+              {
+                "text": "3-6岁",
+                "value": "24123"
+              },
+              {
+                "text": "6岁以上",
+                "value": "24124"
+              }
+            ]
+          }
+        ]
+      },
+      "30": {
+        "channle_name": "科技",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "类型",
+            "key": "three_category_id",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "评测",
+                "value": "27936"
+              },
+              {
+                "text": "教程",
+                "value": "27937"
+              },
+              {
+                "text": "活动",
+                "value": "27938"
+              },
+              {
+                "text": "广告",
+                "value": "27939"
+              },
+              {
+                "text": "资讯",
+                "value": "27974"
+              },
+              {
+                "text": "其他",
+                "value": "27975"
+              }
+            ]
+          },
+          {
+            "name": "地区",
+            "key": "three_category_id",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "国内",
+                "value": "24132"
+              },
+              {
+                "text": "国际",
+                "value": "24133"
+              }
+            ]
+          },
+          {
+            "name": "内容",
+            "key": "three_category_id",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "IT业界",
+                "value": "27972"
+              },
+              {
+                "text": "互联网",
+                "value": "27973"
+              },
+              {
+                "text": "手机",
+                "value": "27974"
+              },
+              {
+                "text": "笔记本",
+                "value": "27943"
+              },
+              {
+                "text": "智能硬件",
+                "value": "27944"
+              },
+              {
+                "text": "平板电脑",
+                "value": "27945"
+              },
+              {
+                "text": "数码相机",
+                "value": "27946"
+              },
+              {
+                "text": "PC",
+                "value": "27948"
+              },
+              {
+                "text": "家电",
+                "value": "27949"
+              },
+              {
+                "text": "游戏机",
+                "value": "27950"
+              },
+              {
+                "text": "前沿技术",
+                "value": "27951"
+              },
+              {
+                "text": "科学探索",
+                "value": "27952"
+              },
+              {
+                "text": "爱科技出品",
+                "value": "27953"
+              }
+            ]
+          }
+        ]
+      },
+      "31": {
+        "channle_name": "脱口秀",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "类型",
+            "key": "three_category_id",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "文化",
+                "value": "27507"
+              },
+              {
+                "text": "娱乐",
+                "value": "27508"
+              },
+              {
+                "text": "访谈",
+                "value": "27509"
+              },
+              {
+                "text": "社会",
+                "value": "27510"
+              },
+              {
+                "text": "搞笑",
+                "value": "27511"
+              },
+              {
+                "text": "财经",
+                "value": "27512"
+              },
+              {
+                "text": "时尚",
+                "value": "27513"
+              },
+              {
+                "text": "历史",
+                "value": "27514"
+              }
+            ]
+          },
+          {
+            "name": "语言",
+            "key": "three_category_id",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "国语",
+                "value": "27515"
+              },
+              {
+                "text": "英语",
+                "value": "27516"
+              },
+              {
+                "text": "韩语",
+                "value": "27517"
+              },
+              {
+                "text": "日语",
+                "value": "27518"
+              }
+            ]
+          },
+          {
+            "name": "地区",
+            "key": "three_category_id",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "内地",
+                "value": "27502"
+              },
+              {
+                "text": "台湾地区",
+                "value": "27503"
+              },
+              {
+                "text": "香港地区",
+                "value": "27504"
+              },
+              {
+                "text": "日本",
+                "value": "27505"
+              },
+              {
+                "text": "韩国",
+                "value": "27506"
+              },
+              {
+                "text": "美国",
+                "value": "27824"
+              }
+            ]
+          }
+        ]
+      },
+      "32": {
+        "channle_name": "健康",
+        "default_sort_value": "11",
+        "filters": [
+          {
+            "name": "类型",
+            "key": "three_category_id",
+            "items": [
+              {
+                "text": "全部",
+                "value": "0"
+              },
+              {
+                "text": "资讯",
+                "value": "28068"
+              },
+              {
+                "text": "医疗",
+                "value": "28069"
+              },
+              {
+                "text": "两性",
+                "value": "28081"
+              },
+              {
+                "text": "养生",
+                "value": "28082"
+              },
+              {
+                "text": "健身",
+                "value": "28441"
+              },
+              {
+                "text": "美容",
+                "value": "28449"
+              },
+              {
+                "text": "心理",
+                "value": "28450"
+              },
+              {
+                "text": "常识",
+                "value": "28451"
+              },
+              {
+                "text": "儿科",
+                "value": "28452"
+              },
+              {
+                "text": "老年",
+                "value": "28456"
+              },
+              {
+                "text": "宠物",
+                "value": "28459"
+              },
+              {
+                "text": "交流分享",
+                "value": "28462"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "sort": {
+      "name": "排序",
+      "items": [
+        {
+          "text": "评分",
+          "value": "8",
+          "keyType": "1"
+        },
+        {
+          "text": "最近热播",
+          "value": "11",
+          "keyType": "1"
+        },
+        {
+          "text": "最近更新",
+          "value": "4",
+          "keyType": "1"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "empty-container",
+  "version": "0.1.2",
+  "description": "",
+  "main": "./libs/EmptyContainer.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "antd": "^3.26.19",
+    "container-resize": "0.0.2",
+    "react": "^16.9.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,1320 @@
+{
+    "version": "5.19.0",
+    "hard_soft_decode": [
+                         {
+                         "channel_id": "100",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         },
+                         {
+                         "channel_id": "101",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         },
+                         {
+                         "channel_id": "102",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         },
+                         {
+                         "channel_id": "000",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         },
+                         {
+                         "channel_id": "001",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         },
+                         {
+                         "channel_id": "002",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         },
+                         {
+                         "channel_id": "003",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         },
+                         {
+                         "channel_id": "004",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         },
+                         {
+                         "channel_id": "005",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         },
+                         {
+                         "channel_id": "006",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         },
+                         {
+                         "channel_id": "007",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         },
+                         {
+                         "channel_id": "008",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         },
+                         {
+                         "channel_id": "009",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         },
+                         {
+                         "channel_id": "010",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         },
+                         {
+                         "channel_id": "011",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         },
+                         {
+                         "channel_id": "012",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         },
+                         {
+                         "channel_id": "013",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         },
+                         {
+                         "channel_id": "014",
+                         "hard_decode": 0,
+                         "hcdn": 1
+                         }
+                         ],
+    "loading_image": {
+        "default": "http://mbdapp.iqiyi.com/j/ot/defaultloading.exe",
+        "dubo": "http://mbdapp.iqiyi.com/j/ot/duboloading.exe",
+        "zizhiju": "http://mbdapp.iqiyi.com/j/ot/zizhiloading.exe",
+        "vip": "http://mbdapp.iqiyi.com/j/ot/viploading.exe"
+    },
+    "player_tips": {
+        "continue_play": {
+            "text": "您上次观看至处，爱奇艺为您自动续播。",
+            "position": 6,
+            "button": "从头观看",
+            "autohide": 1,
+            "timeout": 3,
+            "on": 1
+        },
+        "h264_changing_bitstream": {
+            "text": "正在为您切换至码流，请稍候…",
+            "position": 7,
+            "button": "",
+            "on": 1
+        },
+        "h264_changing_bitstream_v2": {
+            "text": "正在为你切换画质",
+            "position": 6,
+            "button": "",
+            "on": 1
+        },
+        "h264_changed_bitstream": {
+            "text": "已切换到码流",
+            "position": 4,
+            "button": "",
+            "on": 1
+        },
+        "h264_changed_bitstream_v2": {
+            "text": "已切换到画质",
+            "position": 4,
+            "button": "",
+            "autohide": 1,
+            "timeout": 3,
+            "on": 1
+        },
+        "h265_changing_bitstream": {
+            "text": "正在为您切换至 高码率 编码的码流，请稍候…",
+            "position": 17,
+            "button": "",
+            "on": 1
+        },
+        "h265_changed_bitstream": {
+            "text": "已切换至 高码率 编码的码流",
+            "position": 14,
+            "button": "",
+            "on": 1
+        },
+        "test_see_begin": {
+            "text": "您可以免费观看前分钟，完整观看请购买。",
+            "position": 8,
+            "button": "点此购买",
+            "on": 1
+        },
+        "test_see_end": {
+            "text": "试看已结束，完整观看请购买。",
+            "position": -1,
+            "button": "点此购买",
+            "on": 1
+        },
+        "begin_play_recommend": {
+            "text": "即将为你播放 爱奇艺推荐",
+            "position": -1,
+            "button": "",
+            "on": 1
+        },
+        "skip_ad": {
+            "text": "尊敬的爱奇艺会员，我们已经为您自动跳过广告。",
+            "position": -1,
+            "button": "",
+            "autohide": 1,
+            "timeout": 3,
+            "on": 0
+        },
+        "test_see_one_episode": {
+            "text": "您可以免费观看本集，完整观看请",
+            "position": -1,
+            "button": "立即购买",
+            "on": 1
+        },
+        "test_see_need_vodticket": {
+            "text": "您可以免费观看前分钟，VIP用户可半价购买。",
+            "position": 8,
+            "button": "立即购买",
+            "on": 1
+        },
+        "test_see_have_vodticket": {
+            "text": "您可以免费观看前分钟，VIP用户用券免费看。",
+            "position": 8,
+            "button": "用券观看",
+            "on": 1
+        },
+        "drag_subtitle": {
+            "text": "字幕文件已替换，可在字幕设置中切换",
+            "position": -1,
+            "button": "",
+            "autohide": 1,
+            "timeout": 3,
+            "on": 1
+        },
+        "change_playspeed": {
+            "text": "当前倍速：倍（⌘+R键恢复正常速度）",
+            "position": 5,
+            "button": "",
+            "autohide": 1,
+            "timeout": 3,
+            "on": 1
+        },
+        "restore_normal_playspeed": {
+            "text": "正常倍速：倍",
+            "position": 5,
+            "button": "",
+            "autohide": 1,
+            "timeout": 3,
+            "on": 1
+        },
+        "skip_title": {
+            "text": "已为您跳过片头",
+            "position": -1,
+            "button": "",
+            "autohide": 1,
+            "timeout": 3,
+            "on": 1
+        },
+        "skip_trailer": {
+            "text": "即将跳过片尾",
+            "position": -1,
+            "button": "",
+            "autohide": 1,
+            "timeout": 10,
+            "on": 1
+        },
+        "opening_dolby": {
+            "text": "杜比音效正在开启中，请稍候…",
+            "position": 14,
+            "button": "",
+            "autohide": 1,
+            "timeout": 4,
+            "member" : 1,
+            "member_info" : 1,
+            "on": 1
+        },
+        "opened_dolby_success": {
+            "text": "您已开启杜比音效",
+            "position": -1,
+            "button": "",
+            "autohide": 1,
+            "timeout": 4,
+            "member" : 1,
+            "member_info" : 1,
+            "on": 1
+        },
+        "first_opened_dolby_success": {
+            "text": "畅享杜比音效，升级视听体验",
+            "position": -1,
+            "button": "",
+            "autohide": 1,
+            "timeout": 4,
+            "member" : 1,
+            "member_info" : 0,
+            "on": 1
+        },
+        "opened_dolby_fail": {
+            "text": "抱歉，开启失败，请稍后再试",
+            "position": -1,
+            "button": "",
+            "autohide": 1,
+            "timeout": 4,
+            "member" : 1,
+            "member_info" : 0,
+            "on": 1
+        },
+        "try_dolby_begin": {
+            "text": "您可以试用杜比音效10分钟，开通会员随心享受。",
+            "position": -1,
+            "button": "立即开通",
+            "autohide": 1,
+            "timeout": 4,
+            "member" : 1,
+            "member_info" : 0,
+            "on": 1
+        },
+        "try_dolby_finish": {
+            "text": "杜比音效试用已结束，如需继续使用请开通VIP会员。",
+            "position": -1,
+            "button": "立即开通",
+            "autohide": 1,
+            "timeout": 4,
+            "member" : 1,
+            "member_info" : 0,
+            "on": 1
+        },
+        "closing_dolby": {
+            "text": "杜比音效正在关闭中，请稍候…",
+            "position": 14,
+            "button": "",
+            "autohide": 1,
+            "timeout": 4,
+            "member" : 1,
+            "member_info" : 1,
+            "on": 1
+        },
+        "closed_dolby_success": {
+            "text": "您已关闭杜比音效",
+            "position": -1,
+            "button": "",
+            "autohide": 1,
+            "timeout": 4,
+            "member" : 1,
+            "member_info" : 1,
+            "on": 1
+        },
+        "closed_dolby_fail": {
+            "text": "抱歉，关闭失败，请稍后再试",
+            "position": -1,
+            "button": "",
+            "autohide": 1,
+            "timeout": 4,
+            "member" : 1,
+            "member_info" : 0,
+            "on": 1
+        },
+        "user_status_closed_dolby_success": {
+            "text": "登录状态已变化，已关闭会员专享的杜比音效",
+            "position": -1,
+            "button": "",
+            "autohide": 1,
+            "timeout": 4,
+            "member" : 1,
+            "member_info" : 0,
+            "on": 1
+        },
+        "send_barrage_too_fast": {
+            "text": "手速好快呀，休息一下吧~",
+            "position": -1,
+            "button": "",
+            "autohide": 1,
+            "timeout": 3,
+            "member" : 0,
+            "member_info" : 0,
+            "on": 1
+        },
+        "send_barrage_too_long": {
+            "text": "字数超过限制了哦~",
+            "position": -1,
+            "button": "",
+            "autohide": 1,
+            "timeout": 3,
+            "member" : 0,
+            "member_info" : 0,
+            "on": 1
+        },
+        "start_play_ahead_video": {
+            "text": "您已解锁本剧超前点播权益",
+            "position": -1,
+            "button": "",
+            "autohide": 1,
+            "timeout": 3,
+            "member" : 1,
+            "member_info" : 1,
+            "on": 1
+        }
+    },
+    "bitstreams": [
+                   {
+                   "value": 96,
+                   "name": "极速",
+                   "type": "H264"
+                   },
+                   {
+                   "value": 1,
+                   "name": "流畅",
+                   "type": "H264"
+                   },
+                   {
+                   "value": 2,
+                   "name": "高清",
+                   "type": "H264"
+                   },
+                   {
+                   "value": 4,
+                   "name": "超清720p",
+                   "type": "H264"
+                   },
+                   {
+                   "value": 5,
+                   "name": "1080p",
+                   "type": "H264"
+                   },
+                   {
+                   "value": 10,
+                   "name": "4K",
+                   "type": "H264"
+                   },
+                   {
+                   "value": 17,
+                   "name": "超清720p",
+                   "type": "H265"
+                   },
+                   {
+                   "value": 18,
+                   "name": "1080p",
+                   "type": "H265"
+                   },
+                   {
+                   "value": 19,
+                   "name": "4K",
+                   "type": "H265"
+                   }
+                   ],
+    "player_error": {
+        "error_list": [
+                       {
+                       "puma_errorcode": 101,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 1,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 102,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 1,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 103,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 104,
+                       "server_errorcode": "101",
+                       "error_message": "",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 104,
+                       "server_errorcode": "302",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 104,
+                       "server_errorcode": "303",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 104,
+                       "server_errorcode": "304",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 104,
+                       "server_errorcode": "401",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 104,
+                       "server_errorcode": "405",
+                       "error_message": "该视频已经下线，请选择其它视频观看",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 104,
+                       "server_errorcode": "406",
+                       "error_message": "该视频已经下线，请选择其它视频观看",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 104,
+                       "server_errorcode": "501",
+                       "error_message": "很抱歉，当前平台暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 104,
+                       "server_errorcode": "502",
+                       "error_message": "你所在的地区由于版权限制暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 104,
+                       "server_errorcode": "A00000-502",
+                       "error_message": "你所在的地区由于版权限制暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 104,
+                       "server_errorcode": "602",
+                       "error_message": "Mac暂不支持该视频播放，请在其他设备上尝试",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 104,
+                       "server_errorcode": "A00000-602",
+                       "error_message": "Mac暂不支持该视频播放，请在其他设备上尝试",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 104,
+                       "server_errorcode": "A00000-704",
+                       "error_message": "Mac暂不支持网球会员，请在网页、手机端观看",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 105,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 501,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，会员身份鉴定错误",
+                       "try_again": 1,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 502,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，会员身份鉴定错误",
+                       "try_again": 1,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 503,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，会员身份鉴定错误",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 504,
+                       "server_errorcode": "Q00301",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 504,
+                       "server_errorcode": "Q00302",
+                       "error_message": "",
+                       "try_again": 0,
+                       "login": 1,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 504,
+                       "server_errorcode": "Q00304",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 1
+                       },
+                       {
+                       "puma_errorcode": 504,
+                       "server_errorcode": "Q00305",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 504,
+                       "server_errorcode": "Q00306",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 504,
+                       "server_errorcode": "Q00310",
+                       "error_message": "很抱歉，你没有权限观看此视频",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 1
+                       },
+                       {
+                       "puma_errorcode": 504,
+                       "server_errorcode": "Q00311",
+                       "error_message": "",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 504,
+                       "server_errorcode": "Q00312",
+                       "error_message": "",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 504,
+                       "server_errorcode": "Q00501",
+                       "error_message": "",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 504,
+                       "server_errorcode": "Q00503",
+                       "error_message": "该视频不支持免费试看，请开通黄金会员",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 1
+                       },
+                       {
+                       "puma_errorcode": 504,
+                       "server_errorcode": "Q00504",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 504,
+                       "server_errorcode": "Q00505",
+                       "error_message": "该视频不支持免费试看，请开通黄金会员",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 1
+                       },
+                       {
+                       "puma_errorcode": 504,
+                       "server_errorcode": "Q00506",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 504,
+                       "server_errorcode": "Q00507",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 504,
+                       "server_errorcode": "Q00508",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 505,
+                       "server_errorcode": "",
+                       "error_message": "",
+                       "try_again": 0,
+                       "login": 1,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 601,
+                       "server_errorcode": "",
+                       "error_message": "",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 602,
+                       "server_errorcode": "",
+                       "error_message": "",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 603,
+                       "server_errorcode": "",
+                       "error_message": "",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 604,
+                       "server_errorcode": "",
+                       "error_message": "",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 3101,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 1,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 3102,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 1,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 3103,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 3201,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 1,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 3202,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 1,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 3203,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 4011,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 1,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 4012,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 1,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 4016,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 4017,
+                       "server_errorcode": "",
+                       "error_message": "本地文件已移动或删除，无法播放",
+                       "try_again": 0,
+                       "login": 0
+                       },
+                       {
+                       "puma_errorcode": 4018,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 4019,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 4020,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 4021,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 8100,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 111,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 1,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 112,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 113,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 114,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       },
+                       {
+                       "puma_errorcode": 115,
+                       "server_errorcode": "",
+                       "error_message": "很抱歉，该视频暂无法播放",
+                       "try_again": 0,
+                       "login": 0,
+                       "buy_vip": 0
+                       }
+                       ],
+        "default": {
+            "puma_errorcode": -1,
+            "server_errorcode": "",
+            "error_message": "很抱歉，该视频暂无法播放",
+            "try_again": 0,
+            "login": 0,
+            "buy_vip": 0
+        }
+    },
+    "online_error_tip_v2": {
+        "items": [
+                  {
+                  "bussiness": 3,
+                  "type": 3,
+                  "detail": "Q00313",
+                  "message": "",
+                  "action": 7
+                  },
+                  {
+                  "bussiness": 3,
+                  "type": 3,
+                  "detail": "Q00311",
+                  "message": "",
+                  "action": 6
+                  },
+                  {
+                  "bussiness": 3,
+                  "type": 3,
+                  "detail": "Q00312",
+                  "message": "",
+                  "action": 6
+                  },
+                  {
+                  "bussiness": 3,
+                  "type": 3,
+                  "detail": "Q00501",
+                  "message": "",
+                  "action": 5
+                  },
+                  {
+                  "bussiness": 3,
+                  "type": 3,
+                  "detail": "Q00503",
+                  "message": "",
+                  "action": 4
+                  },
+                  {
+                  "bussiness": 3,
+                  "type": 3,
+                  "detail": "Q00504",
+                  "message": "",
+                  "action": 4
+                  },
+                  {
+                  "bussiness": 1,
+                  "type": 3,
+                  "detail": "A00000-501",
+                  "message": "很抱歉，由于版权原因，该视频无法在Mac端播放",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 1,
+                  "type": 3,
+                  "detail": "A00000-502",
+                  "message": "很抱歉，由于版权原因，该视频无法在本地区播放",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 1,
+                  "type": 3,
+                  "detail": "A00000-512",
+                  "message": "会员权益解锁失败",
+                  "action": 8
+                  },
+                  {
+                  "bussiness": 1,
+                  "type": 3,
+                  "detail": "A00000-709",
+                  "message": "暂未支持超前点播功能，请到手机端观看",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 3,
+                  "type": 3,
+                  "detail": "Q00505",
+                  "message": "",
+                  "action": 4
+                  },
+                  {
+                  "bussiness": 3,
+                  "type": 3,
+                  "detail": "Q00506",
+                  "message": "本视频只有VIP会员才能观看，请开通VIP会员",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 1,
+                  "type": 1,
+                  "detail": "",
+                  "message": "网络开小差啦，请确认网络连接后重试",
+                  "action": 2
+                  },
+                  {
+                  "bussiness": 1,
+                  "type": 2,
+                  "detail": "1",
+                  "message": "网络似乎出了点问题",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 1,
+                  "type": 4,
+                  "detail": "2",
+                  "message": "播放出错啦，看看其他视频吧",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 3,
+                  "type": 1,
+                  "detail": "",
+                  "message": "网络开小差啦，请确认网络连接后重试",
+                  "action": 2
+                  },
+                  {
+                  "bussiness": 3,
+                  "type": 2,
+                  "detail": "1",
+                  "message": "网络似乎出了点问题",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 4,
+                  "type": 1,
+                  "detail": "",
+                  "message": "网络开小差啦，请确认网络连接后重试",
+                  "action": 2
+                  },
+                  {
+                  "bussiness": 4,
+                  "type": 2,
+                  "detail": "1",
+                  "message": "网络似乎出了点问题",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 5,
+                  "type": 1,
+                  "detail": "",
+                  "message": "网络开小差啦，请确认网络连接后重试",
+                  "action": 2
+                  },
+                  {
+                  "bussiness": 5,
+                  "type": 2,
+                  "detail": "1",
+                  "message": "网络似乎出了点问题",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 5,
+                  "type": 3,
+                  "detail": "",
+                  "message": "网络似乎出了点问题",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 6,
+                  "type": 1,
+                  "detail": "",
+                  "message": "网络开小差啦，请确认网络连接后重试",
+                  "action": 2
+                  },
+                  {
+                  "bussiness": 6,
+                  "type": 1,
+                  "detail": "-1--1",
+                  "message": "网络开小差啦，请确认网络连接后重试",
+                  "action": 2
+                  },
+                  {
+                  "bussiness": 6,
+                  "type": 2,
+                  "detail": "1",
+                  "message": "网络似乎出了点问题",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 7,
+                  "type": 2,
+                  "detail": "1",
+                  "message": "网络似乎出了点问题",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 7,
+                  "type": 0,
+                  "detail": "10",
+                  "message": "网络似乎出了点问题",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 7,
+                  "type": 0,
+                  "detail": "11",
+                  "message": "网络似乎出了点问题",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 7,
+                  "type": 0,
+                  "detail": "12",
+                  "message": "网络开小差啦，请确认网络连接后重试",
+                  "action": 2
+                  },
+                  {
+                  "bussiness": 7,
+                  "type": 0,
+                  "detail": "13",
+                  "message": "网络开小差啦，请确认网络连接后重试",
+                  "action": 2
+                  },
+                  {
+                  "bussiness": 7,
+                  "type": 0,
+                  "detail": "",
+                  "message": "播放出错啦，看看其他视频吧",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 9,
+                  "type": 0,
+                  "detail": "",
+                  "message": "播放器出错啦",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 10,
+                  "type": 0,
+                  "detail": "1",
+                  "message": "播放器出错啦",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 10,
+                  "type": 0,
+                  "detail": "2",
+                  "message": "播放器出错啦",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 16,
+                  "type": 0,
+                  "detail": "",
+                  "message": "播放出错啦，看看其他视频吧",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 32,
+                  "type": 0,
+                  "detail": "",
+                  "message": "播放出错啦，看看其他视频吧",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 32,
+                  "type": 1,
+                  "detail": "",
+                  "message": "播放出错啦，看看其他视频吧",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 32,
+                  "type": 2,
+                  "detail": "",
+                  "message": "播放出错啦，看看其他视频吧",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 32,
+                  "type": 3,
+                  "detail": "",
+                  "message": "播放出错啦，看看其他视频吧",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 32,
+                  "type": 4,
+                  "detail": "",
+                  "message": "播放出错啦，看看其他视频吧",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 33,
+                  "type": 0,
+                  "detail": "",
+                  "message": "播放出错啦，看看其他视频吧",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 34,
+                  "type": 0,
+                  "detail": "",
+                  "message": "播放出错啦，看看其他视频吧",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 34,
+                  "type": 1,
+                  "detail": "",
+                  "message": "播放出错啦，看看其他视频吧",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 34,
+                  "type": 1,
+                  "detail": "603",
+                  "message": "网络开小差啦，请确认网络连接后重试",
+                  "action": 2
+                  },
+                  {
+                  "bussiness": 34,
+                  "type": 2,
+                  "detail": "",
+                  "message": "播放出错啦，看看其他视频吧",
+                  "action": 1
+                  },
+                  {
+                  "bussiness": 34,
+                  "type": 4,
+                  "detail": "",
+                  "message": "播放出错啦，看看其他视频吧",
+                  "action": 1
+                  }
+                  ],
+        "default": {
+            "message": "很抱歉，该视频无法播放",
+            "action": 1
+        }
+    },
+    "online_netdoctor_error_tip": {
+        "items": [
+            {
+                "type": 1001,
+                "message": "DNS配置异常，请配置正确的DNS",
+                "action": 13
+            },
+            {
+                "type": 1002,
+                "message": "播放异常，请重启路由器或设备再试试",
+                "action": 12
+            },
+            {
+                "type": 1003,
+                "message": "网络开小差啦，请检查网络设置",
+                "action": 11
+            },
+            {
+                "type": 1004,
+                "message": "网络开小差啦，请检查网络设置",
+                "action": 11
+            },
+            {
+                "type": 1005,
+                "message": "网络开小差啦，请检查网络设置",
+                "action": 11
+            },
+            {
+                "type": 1006,
+                "message": "服务器太忙啦，重启一下APP吧",
+                "action": 12
+            },
+            {
+                "type": 1007,
+                "message": "播放异常，请重启路由器或设备再试试",
+                "action": 12
+            }
+        ]
+    },
+    "bitstreams_v2": [
+        {
+            "value": 1,
+            "name": "流畅",
+            "full_name": "流畅360P",
+            "type": "H264"
+        },
+        {
+            "value": 2,
+            "name": "高清",
+            "full_name": "高清480P",
+            "type": "H264"
+        },
+        {
+            "value": 4,
+            "name": "超清",
+            "full_name": "超清720P",
+            "type": "H264"
+        },
+        {
+            "value": 5,
+            "name": "蓝光",
+            "full_name": "蓝光1080P",
+            "type": "H264"
+        },
+        {
+            "value": 10,
+            "name": "蓝光4K",
+            "full_name": "蓝光4K",
+            "type": "H264"
+        },
+        {
+            "value": 17,
+            "name": "超清720p",
+            "full_name": "超清720p",
+            "type": "H265"
+        },
+        {
+            "value": 18,
+            "name": "1080p",
+            "full_name": "1080p",
+            "type": "H265"
+        },
+        {
+            "value": 19,
+            "name": "4K",
+            "full_name": "4K",
+            "type": "H265"
+        }
+    ]
+}

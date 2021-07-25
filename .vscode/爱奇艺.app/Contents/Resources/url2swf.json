@@ -1,0 +1,8 @@
+﻿{
+    "version": "4.21.6",
+    "url2swf": "0",
+    "ip_black_list": "",
+    "website_white_list": "youku.com,v.qq.com,hunantv.com,mgtv.com,acfun.tv,acfun.cn",
+    "flash_black_list": "youku.com,v.qq.com",
+    "forge_safari_useragent" : "0"
+}
